@@ -1,10 +1,12 @@
 {
-  "name": "color-converter.js",
+  "name": "@tolga1452/color-converter.js",
   "version": "1.0.0",
   "description": "A simple color convert tool for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "commit": "git cz",
+    "publish": "npm publish --access=public"
   },
   "keywords": [
     "color",
